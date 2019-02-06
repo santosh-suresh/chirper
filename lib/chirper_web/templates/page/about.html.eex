@@ -1,2 +1,2 @@
-<h1>About</h1>
-<p>This is the about page for the <em>Phoenix</em> port of the Rails tutorial</p>
+<h2>About</h2>
+<p class="mt-4">This is the about page for the <em>Phoenix</em> port of the Rails tutorial</p>

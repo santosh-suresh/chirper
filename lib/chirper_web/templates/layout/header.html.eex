@@ -1,0 +1,14 @@
+<header class="py-2 bg-green text-white border-b border-white">
+    <div class="container flex items-center justify-between mx-auto">
+        <h1>Chirper</h1>
+        <ul class="flex items-center list-reset">
+            <li class="ml-12">
+                <%= link("Home", to: Routes.page_path(@conn, :home), class: "inline py-4 text-white hover:text-gray-lighter no-underline") %>
+            </li>
+            <li class="ml-12">
+                <%= link("Help", to: Routes.page_path(@conn, :help), class: "inline py-4 text-white hover:text-gray-lighter no-underline") %>
+            </li>
+            <li class="ml-12"><a class="inline py-4 text-white hover:text-gray-lighter no-underline" href="#">Log In</a></li>
+        </ul>
+    </div>
+</header>

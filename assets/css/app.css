@@ -1,3 +1,17 @@
-/* This file is for your main application css. */
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
 
-@import "./phoenix.css";
+html {
+    @apply .bg-grey-lighter;
+    @apply .text-black .h-full;
+}
+
+a {
+    @apply .no-underline;
+    @apply .text-blue;
+}
+
+a:hover {
+    @apply .underline;
+}
