@@ -1,5 +1,7 @@
 # Chirper
 
+[![CircleCI](https://circleci.com/gh/santosh-suresh/chirper/tree/master.svg?style=shield)](https://circleci.com/gh/santosh-suresh/chirper/tree/master)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
